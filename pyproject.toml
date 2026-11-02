@@ -1,0 +1,15 @@
+[project]
+name = "comfy-bomi"
+version = "0.2.0"
+description = "ComfyUI nodes for the Bomi AI enterprise API: background generation, AI suite, white-background RMBG, and ring try-on."
+requires-python = ">=3.9"
+dependencies = ["requests>=2.28"]
+license = { text = "MIT" }
+
+[project.urls]
+Repository = "https://github.com/your-org/comfy-bomi"
+
+[tool.comfy]
+PublisherId = "your-publisher-id"
+DisplayName = "Bomi AI"
+Icon = ""

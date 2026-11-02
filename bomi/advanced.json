@@ -1,0 +1,15 @@
+{
+  "pollIntervalSeconds": 2,
+  "pollTimeoutSeconds": 600,
+  "requestTimeoutSeconds": 60,
+  "downloadTimeoutSeconds": 360,
+  "maxRetries": 3,
+  "optionsCacheSeconds": 300,
+  "optionsTimeoutSeconds": 5,
+  "uploadFormat": "png",
+  "uploadJpegQuality": 92,
+  "maxUploadBytes": 20971520,
+  "logRequestBodies": true,
+  "verifySsl": true,
+  "seedControlAfterGenerate": true
+}

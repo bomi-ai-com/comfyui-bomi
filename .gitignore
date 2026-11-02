@@ -1,0 +1,11 @@
+config.json
+
+# Local credentials for live testing (auth.env). Never commit these, and never
+# ship them - release.py excludes *.env twice over, by rule and by inspecting the zip.
+*.env
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+dist/
